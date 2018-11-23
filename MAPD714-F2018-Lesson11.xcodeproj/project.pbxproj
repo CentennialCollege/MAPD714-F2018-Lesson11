@@ -12,6 +12,8 @@
 		E9DB2B2021A77DDF00EBD84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DB2B1E21A77DDF00EBD84E /* Main.storyboard */; };
 		E9DB2B2221A77DE100EBD84E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DB2B2121A77DE100EBD84E /* Assets.xcassets */; };
 		E9DB2B2521A77DE100EBD84E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DB2B2321A77DE100EBD84E /* LaunchScreen.storyboard */; };
+		E9DB2B2D21A77F8400EBD84E /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB2B2C21A77F8400EBD84E /* ContentCell.swift */; };
+		E9DB2B2F21A78FCD00EBD84E /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB2B2E21A78FCD00EBD84E /* HeaderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E9DB2B2121A77DE100EBD84E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9DB2B2421A77DE100EBD84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9DB2B2621A77DE100EBD84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DB2B2C21A77F8400EBD84E /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		E9DB2B2E21A78FCD00EBD84E /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E9DB2B2121A77DE100EBD84E /* Assets.xcassets */,
 				E9DB2B2321A77DE100EBD84E /* LaunchScreen.storyboard */,
 				E9DB2B2621A77DE100EBD84E /* Info.plist */,
+				E9DB2B2C21A77F8400EBD84E /* ContentCell.swift */,
+				E9DB2B2E21A78FCD00EBD84E /* HeaderCell.swift */,
 			);
 			path = "MAPD714-F2018-Lesson11";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DB2B2F21A78FCD00EBD84E /* HeaderCell.swift in Sources */,
+				E9DB2B2D21A77F8400EBD84E /* ContentCell.swift in Sources */,
 				E9DB2B1D21A77DDF00EBD84E /* ViewController.swift in Sources */,
 				E9DB2B1B21A77DDF00EBD84E /* AppDelegate.swift in Sources */,
 			);
